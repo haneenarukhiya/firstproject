@@ -1,0 +1,10 @@
+{% extends 'extention.html' %}
+{% load static %}
+
+{% block content %}
+<h1>secondpage</h1>
+<img src="{%static'image\jangopic1.jpg'%}"/>
+<img src="{%static'image\jangopic2.jpg'%}"/>
+<a href="{% url 'second' %}">secondpage2</a>
+    
+{% endblock%}

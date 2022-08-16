@@ -1,0 +1,12 @@
+{% extends 'extention.html' %}
+{% load static %}
+
+{% block content %}
+
+<h1> first</h1>
+<img src="{% static 'images/laptop image.jpg' %}"/>
+<img src="{% static 'images/phone image.jpg' %}" width="100px" height="200px"/>
+<a href="{% url 'second' %}">second</a>
+    
+{% endblock%}
+   
